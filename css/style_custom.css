@@ -1,0 +1,154 @@
+html, body{	
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	background-color: #00415d;
+	background-size: cover;	
+}
+@font-face
+{
+	font-family: Arial, fontCustom;
+	/*src: url('YoungandBeautiful.ttf');*/
+}
+#header {
+overflow:hidden;
+	background-color: #00415d;
+	height: 60px;
+}
+#content,#kpis {
+	overflow:hidden;
+	background-color: #00415d;
+	border-bottom: 0px solid black;
+}
+#footer {
+	position:absolute;
+	background-color: #00415d;
+	height: 80px;
+	overflow:hidden;
+}
+#legendBut
+{
+	float:right;
+	margin-top:5px;
+}
+.centerGrid {
+	height: 100%; 
+	width:55%;
+	padding:8%;
+	top: 50%;
+	left: 50%;
+	margin: 0 auto; 
+	display:block;
+	overflow:auto;
+}	
+.line {
+	margin-bottom: 10px;
+	position:relative;
+	border: 0px groove white;
+	width: 340px;
+	height:130px;
+	/*background:#a3d2e5;*/
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	box-shadow: 10px 10px 50px 20px #165b82 inset;
+	display: table;		
+	font-size: 14px;
+	color:#04384d;
+}
+.line p {
+	font-family:fontCustom;
+	padding-left:45px;
+	padding-right:45px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align:middle;
+	color:#1f003a;
+}	
+p{color:#a3d2e5;}
+.mblTabBarSegmentedControl .mblTabBarButton {
+	color:#0F5E96
+}	
+.imgRight{
+	align:right;
+}
+
+#cs,#hs,#People,#Operations,#Efficiency
+{
+	height:150px;
+	display:block;
+	border-style: solid;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left-width: 2px;
+	border-left-color: white;
+	/*margin-left:80px;*/
+	text-align:center;
+
+}
+
+.mblAccordionTitleAnchor  {
+	background-color: #00415d;
+}
+.mblAccordion{
+	border:none;
+	border-top-width:0px;
+	border-right-width:0px;	
+	border-bottom-width:0px;
+	border-left-width:0px;
+}
+.mblAccordionTitleSelected{
+	border:none;
+	border-top-width:0px;
+	border-right-width:0px;	
+	border-bottom-width:0px;
+	border-left-width:0px;
+}
+.mblToolBarButtonArrow{
+	transform:none;
+}
+.dijitContentPane .mblAccordionPane{
+	display:block;
+	height:150px;
+	background:yellow;
+}
+#map{
+	visibility:visible;
+}
+
+#mapCnt{
+	width: 100% !important; height: 100% !important; position: relative; background-color: rgb(229, 227, 223); overflow: hidden; -webkit-transform: translateZ(0);
+}
+.dj_gecko .mblAccordionTitle
+{
+	border:none;
+}
+.logoP
+{
+	font-size:13px;
+	color:#ffffff;
+}
+.teamPhoto
+{
+
+}
+.mblAccordionTitleAnchor 
+{
+	color: #F5F5F5;
+}
+.legendTxt
+{
+	color:black;
+	font-size:12px;
+	text-align:center;
+}
+.mblButton
+{
+	border-radius:5px;
+}
+.mblToolBarButtonBody
+{
+	border-radius:6px;
+}
